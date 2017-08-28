@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>apriltag2</name>
+  <version>0.0.0</version>
+  <description>A catkin package to wrap the AprilTag2 library</description>
+
+    <maintainer email="kumarsha@cs.cmu.edu">Kumar Shaurya Shankar</maintainer>
+
+  <license>TODO</license>
+
+
+  <author email="kumarsha@cs.cmu.deu">Kumar Shaurya Shankar</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>opencv</build_depend>
+  <run_depend>opencv</run_depend>
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+  </export>
+</package>
