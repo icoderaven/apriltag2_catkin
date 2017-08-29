@@ -24,7 +24,7 @@ License along with this library; if not, see <http://www.gnu.org/licenses/>.
 #include <stdlib.h>
 #include <assert.h>
 
-#include "pam.h"
+#include "common/pam.h"
 
 pam_t *pam_create_from_file(const char *inpath)
 {

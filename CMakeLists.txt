@@ -32,6 +32,7 @@ include_directories(
 
 file(GLOB LIBRARY_SRC
     "src/*.c"
+    "src/common/*.c"
 )
 
 ## Declare library

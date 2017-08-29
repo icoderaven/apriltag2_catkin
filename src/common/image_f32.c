@@ -37,9 +37,9 @@ either expressed or implied, of the Regents of The University of Michigan.
 #include <stdlib.h>
 #include <string.h>
 
-#include "math_util.h"
+#include "common/math_util.h"
 
-#include "image_f32.h"
+#include "common/image_f32.h"
 
 
 static inline float sqf(float v)

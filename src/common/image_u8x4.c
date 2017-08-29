@@ -24,9 +24,9 @@ License along with this library; if not, see <http://www.gnu.org/licenses/>.
 #include <stdlib.h>
 #include <string.h>
 
-#include "pam.h"
-#include "pnm.h"
-#include "image_u8x4.h"
+#include "common/pam.h"
+#include "common/pnm.h"
+#include "common/image_u8x4.h"
 
 // least common multiple of 64 (sandy bridge cache line) and 64 (stride needed
 // for 16byte-wide RGBA processing).

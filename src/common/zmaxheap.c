@@ -37,7 +37,7 @@ either expressed or implied, of the Regents of The University of Michigan.
 #include <assert.h>
 #include <stdint.h>
 
-#include "zmaxheap.h"
+#include "common/zmaxheap.h"
 
 //                 0
 //         1               2

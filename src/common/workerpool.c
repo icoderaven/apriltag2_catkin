@@ -38,10 +38,10 @@ either expressed or implied, of the Regents of The University of Michigan.
 #include <stdlib.h>
 #include <inttypes.h>
 
-#include "workerpool.h"
-#include "timeprofile.h"
-#include "math_util.h"
-#include "string_util.h"
+#include "common/workerpool.h"
+#include "common/timeprofile.h"
+#include "common/math_util.h"
+#include "common/string_util.h"
 
 struct workerpool {
     int nthreads;

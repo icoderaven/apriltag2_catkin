@@ -25,10 +25,10 @@ License along with this library; if not, see <http://www.gnu.org/licenses/>.
 #include <stdint.h>
 #include <string.h>
 
-#include "pjpeg.h"
+#include "common/pjpeg.h"
 
-#include "image_u8.h"
-#include "image_u8x3.h"
+#include "common/image_u8.h"
+#include "common/image_u8x3.h"
 
 // https://www.w3.org/Graphics/JPEG/itu-t81.pdf
 

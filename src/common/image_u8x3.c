@@ -25,10 +25,10 @@ License along with this library; if not, see <http://www.gnu.org/licenses/>.
 #include <string.h>
 #include <math.h>
 
-#include "math_util.h"
-#include "pnm.h"
+#include "common/math_util.h"
+#include "common/pnm.h"
 
-#include "image_u8x3.h"
+#include "common/image_u8x3.h"
 
 // least common multiple of 64 (sandy bridge cache line) and 48 (stride needed
 // for 16byte-wide RGB processing). (It's possible that 48 would be enough).
